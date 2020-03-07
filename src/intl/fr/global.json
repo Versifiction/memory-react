@@ -9,5 +9,14 @@
   },
   "home": {
     "title": "Le Memory des Super-Héros"
+  },
+  "rules": {
+    "text1": "Bienvenue dans le Memory des Super-Héros !",
+    "text2": "Le but du jeu est simple :",
+    "text3": "retourner toutes les cartes du plateau, en trouvant les paires de logo de super-héros correspondantes.",
+    "text4": "Vous pourrez retourner 2 cartes à chaque tour : si elles correspondent, elles restent visibles sinon elles retournent sur leur partie cachée !",
+    "text5": "Vous devrez donc mémoriser leur position afin de vous souvenir où elles se trouvent, si vous retournez l'autre carte correspondante.",
+    "text6": "Si vous trouvez les 12 paires avant la fin du temps imparti, vous gagnez !",
+    "text7": "Attention : le chronomètre se lance dès que vous appuyez sur Jouer. Bon jeu !"
   }
 }

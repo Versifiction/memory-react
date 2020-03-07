@@ -11,32 +11,28 @@ function RulesText() {
         <h1>
           <FormattedMessage id="nav.rules" />
         </h1>
-        <p>Bienvenue dans le Memory des Super-Héros !</p>
         <p>
-          Le but du jeu est simple :{" "}
+          <FormattedMessage id="rules.text1" />
+        </p>
+        <p>
+          <FormattedMessage id="rules.text2" />
+          &nbsp;
           <span className="blueText">
-            retourner toutes les cartes du plateau, en trouvant les paires de
-            logo de super-héros correspondantes.
+            <FormattedMessage id="rules.text3" />
           </span>
         </p>
-
         <p>
-          Vous pourrez retourner deux cartes à chaque tour : si elles
-          correspondent, elles restent visibles sinon elles retournent sur leur
-          partie cachée !
+          <FormattedMessage id="rules.text4" />
         </p>
         <p>
-          Vous devrez donc mémoriser leur position afin de vous souvenir où
-          elles se trouvent, si vous retournez l'autre carte correspondante.
+          <FormattedMessage id="rules.text5" />
         </p>
         <span className="blueText">
-          Si vous trouvez les 12 paires avant la fin du temps imparti, vous
-          gagnez !
+          <FormattedMessage id="rules.text6" />
         </span>
         <span className="bold">
           <p>
-            Attention : le chronomètre se lance dès que vous appuyez sur
-            "Jouer". Bon jeu !
+            <FormattedMessage id="rules.text7" />
           </p>
         </span>
         <Button />

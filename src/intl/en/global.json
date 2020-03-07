@@ -9,5 +9,14 @@
   },
   "home": {
     "title": "The Memory of Superheroes"
+  },
+  "rules": {
+    "text1": "Welcome in the Memory of Superheroes !",
+    "text2": "The purpose of the game is simple :",
+    "text3": "return all the cards on the board, by finding all the matching pairs of the superheroes logos.",
+    "text4": "You can return 2 cards by turn : if they match, they stay visible otherwise they go back to their hidden part !",
+    "text5": "You will have to memorize their position to remember where they are, if you return the other card matching.",
+    "text6": "If you find the 12 pairs before the end of the time allocated, you win !",
+    "text7": "Be careful : the chronometer starts when you press Play. Good luck !"
   }
 }
