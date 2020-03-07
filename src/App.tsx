@@ -1,15 +1,18 @@
 import * as React from "react";
 import { BrowserRouter } from "react-router-dom";
 
+import Providers from "../src/providers";
 import Router from "./Router";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+      <Providers>
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
+      </Providers>
     </div>
   );
 }

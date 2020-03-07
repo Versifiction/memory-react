@@ -1,17 +1,27 @@
-import * as React from "react";
-import { FormattedMessage } from "react-intl";
+import React, { FunctionComponent, ReactElement, useEffect } from "react";
+import { FormattedMessage, injectIntl } from "react-intl";
 
+import { useStoreState } from "../../../store/hooks";
 import "./Title.css";
 
-function Title() {
+type TitleProps = {
+  intl: any;
+};
+
+const Title: FunctionComponent<TitleProps> = ({ intl }): ReactElement => {
+  const locale = useStoreState(state => state.intl.locale);
+
+  useEffect(() => {
+    console.log("locale ", locale);
+  }, []);
+
   return (
     <div className="Title">
-      <h1>Le Memory des Super-Héros</h1>
       <h1>
         <FormattedMessage id="home.title" />
       </h1>
     </div>
   );
-}
+};
 
-export default Title;
+export default injectIntl(Title);
