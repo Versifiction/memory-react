@@ -18,5 +18,8 @@
     "text5": "Vous devrez donc mémoriser leur position afin de vous souvenir où elles se trouvent, si vous retournez l'autre carte correspondante.",
     "text6": "Si vous trouvez les 12 paires avant la fin du temps imparti, vous gagnez !",
     "text7": "Attention : le chronomètre se lance dès que vous appuyez sur Jouer. Bon jeu !"
+  },
+  "board": {
+    "restart": "Rejouer"
   }
 }

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-router-dom";
 
 import Button from "../../atoms/Button";
 import "./RulesText.css";
@@ -35,7 +36,14 @@ function RulesText() {
             <FormattedMessage id="rules.text7" />
           </p>
         </span>
-        <Button />
+        <div className="Button">
+          <Link to="/game">
+            <button className="btn-large play" type="submit" name="action">
+              <FormattedMessage id="nav.play" />
+              <i className="material-icons right">send</i>
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 
 import "./Button.css";
 
-const Button: FunctionComponent<{}> = () => {
+type ButtonProps = {
+  isCentered: boolean;
+  label: string;
+};
+
+const Button: FunctionComponent<ButtonProps> = ({ isCentered, label }) => {
   return (
-    <div className="Button">
+    <div className={`Button ${isCentered ? "centered" : ""}`}>
       <Link to="/game">
         <button className="btn-large play" type="submit" name="action">
-          <FormattedMessage id="nav.play" />
+          <FormattedMessage id={`${label}`} />
           <i className="material-icons right">send</i>
         </button>
       </Link>

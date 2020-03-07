@@ -1,0 +1,57 @@
+#tray {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardHero {
+  height: 150px;
+  width: 150px;
+  background-color: #95878b;
+  margin: 5px;
+  position: relative;
+  transition: all 0.4s linear;
+  transform-style: preserve-3d;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.back,
+.front {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.progress {
+  display: flex !important;
+  justify-content: center !important;
+  max-width: 960px !important;
+  height: 8px !important;
+  margin: 30px auto !important;
+  background-color: white !important;
+}
+
+.progress .determinate {
+  background-color: #61dafb !important;
+}
+
+.selected {
+  transform: rotateY(180deg);
+}
+
+.match .front {
+  background: #61dafb !important;
+}

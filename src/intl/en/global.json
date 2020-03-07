@@ -18,5 +18,8 @@
     "text5": "You will have to memorize their position to remember where they are, if you return the other card matching.",
     "text6": "If you find the 12 pairs before the end of the time allocated, you win !",
     "text7": "Be careful : the chronometer starts when you press Play. Good luck !"
+  },
+  "board": {
+    "restart": "Restart"
   }
 }

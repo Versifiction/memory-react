@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "name": "aquaman",
+      "img": "aquaman.png"
+    },
+    {
+      "name": "batman",
+      "img": "batman.png"
+    },
+    {
+      "name": "captainamerica",
+      "img": "captainamerica.png"
+    },
+    {
+      "name": "deadpool",
+      "img": "deadpool.png"
+    },
+    {
+      "name": "flash",
+      "img": "flash.png"
+    },
+    {
+      "name": "greenlantern",
+      "img": "greenlantern.png"
+    },
+    {
+      "name": "ironman",
+      "img": "ironman.png"
+    },
+    {
+      "name": "spiderman",
+      "img": "spiderman.png"
+    },
+    {
+      "name": "ironfist",
+      "img": "ironfist.png"
+    },
+    {
+      "name": "thepunisher",
+      "img": "thepunisher.png"
+    },
+    {
+      "name": "wonderwoman",
+      "img": "wonderwoman.png"
+    },
+    {
+      "name": "xman",
+      "img": "xman.png"
+    }
+  ]
+}
