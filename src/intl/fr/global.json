@@ -1,4 +1,9 @@
 {
+  "nav": {
+    "title": "Memory",
+    "play": "Jouer",
+    "scores": "Scores"
+  },
   "home": {
     "title": "Le Memory des Super-Héros"
   }

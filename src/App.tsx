@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import Providers from "../src/providers";
 import Router from "./Router";
+import "materialize-css/dist/css/materialize.min.css";
 import "./App.css";
 
 function App() {

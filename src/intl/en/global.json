@@ -1,4 +1,9 @@
 {
+  "nav": {
+    "title": "Memory",
+    "play": "Play",
+    "scores": "Scores"
+  },
   "home": {
     "title": "The Memory of Superheroes"
   }
