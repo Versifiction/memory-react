@@ -1,0 +1,16 @@
+/* TEAM */
+                            
+Mon rôle sur ce projet: Marc Charpentier
+Site: www.marccharpentier.com
+Twitter: www.twitter.com/MarkCharpent
+Location: Paris, France
+							
+/* THANKS */
+							
+Name: Me
+
+/* SITE */
+
+Last update: 07/03/2020
+Languages, Libraries, Packages : HTML, CSS (MaterializeCSS), JavaScript (React, NPM Packages), Typescript...
+   
