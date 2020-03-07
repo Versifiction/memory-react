@@ -4,6 +4,7 @@ import "./App.css";
 
 import Home from "./pages/Home";
 import Game from "./pages/Game";
+import Scores from "./pages/Scores";
 import Error from "./pages/Error";
 
 function Router() {
@@ -11,6 +12,7 @@ function Router() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/game" exact component={Game} />
+      <Route path="/scores" exact component={Scores} />
       <Route component={Error} />
     </Switch>
   );

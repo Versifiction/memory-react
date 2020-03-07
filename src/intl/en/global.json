@@ -2,7 +2,9 @@
   "nav": {
     "title": "Memory",
     "play": "Play",
-    "scores": "Scores"
+    "scores": "Scores",
+    "en": "English",
+    "fr": "French"
   },
   "home": {
     "title": "The Memory of Superheroes"

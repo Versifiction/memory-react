@@ -2,7 +2,9 @@
   "nav": {
     "title": "Memory",
     "play": "Jouer",
-    "scores": "Scores"
+    "scores": "Scores",
+    "en": "Anglais",
+    "fr": "Français"
   },
   "home": {
     "title": "Le Memory des Super-Héros"

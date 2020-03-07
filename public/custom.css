@@ -1,3 +1,15 @@
 nav {
-  background-color: inherit;
+  background-color: inherit !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  background-color: #61dafb !important;
+}
+
+.brand-logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem !important;
 }
