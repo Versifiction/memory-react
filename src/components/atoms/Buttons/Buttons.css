@@ -1,0 +1,16 @@
+.Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-large {
+  background-color: #61dafb !important;
+}
+
+.Buttons .rules {
+  background-color: #282c34 !important;
+}
+
+.Buttons .play {
+  margin-left: 10px;
+}

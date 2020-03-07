@@ -2,11 +2,17 @@ import React, { FunctionComponent } from "react";
 import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 
-import "./Button.css";
+import "./Buttons.css";
 
-const Button: FunctionComponent<{}> = () => {
+const Buttons: FunctionComponent<{}> = () => {
   return (
-    <div className="Button">
+    <div className="Buttons">
+      <Link to="/rules">
+        <button className="btn-large rules" type="submit" name="action">
+          <FormattedMessage id="nav.rules" />
+          <i className="material-icons right">menu</i>
+        </button>
+      </Link>
       <Link to="/game">
         <button className="btn-large play" type="submit" name="action">
           <FormattedMessage id="nav.play" />
@@ -17,4 +23,4 @@ const Button: FunctionComponent<{}> = () => {
   );
 };
 
-export default Button;
+export default Buttons;

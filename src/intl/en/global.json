@@ -2,9 +2,10 @@
   "nav": {
     "title": "Memory",
     "play": "Play",
+    "rules": "Rules",
     "scores": "Scores",
-    "en": "English",
-    "fr": "French"
+    "en": "EN",
+    "fr": "FR"
   },
   "home": {
     "title": "The Memory of Superheroes"

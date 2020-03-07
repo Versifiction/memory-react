@@ -1,0 +1,18 @@
+.blueText {
+  color: #61dafb;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.RulesText p {
+  color: #95878b;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}

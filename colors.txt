@@ -1,2 +1,3 @@
 grey=#282c34
+lightgrey=#95878B
 blue=#61dafb

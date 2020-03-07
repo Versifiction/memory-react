@@ -1,0 +1,18 @@
+.nav-dropdown-language-container {
+  display: flex !important;
+  align-items: center;
+}
+
+.nav-dropdown-language {
+  padding-left: 6px;
+}
+
+.nav-language {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: #282c34 !important;
+}

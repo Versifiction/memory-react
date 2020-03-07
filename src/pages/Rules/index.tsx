@@ -1,18 +1,18 @@
 import * as React from "react";
 
 import Nav from "../../components/molecules/Nav";
-import HeaderBanner from "../../components/molecules/HeaderBanner";
+import RulesText from "../../components/molecules/RulesText";
 import Footer from "../../components/molecules/Footer";
-import "./Home.css";
+import "./Rules.css";
 
-function Home() {
+function Rules() {
   return (
-    <div className="Home">
+    <div className="Rules">
       <Nav />
-      <HeaderBanner />
+      <RulesText />
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Rules;
